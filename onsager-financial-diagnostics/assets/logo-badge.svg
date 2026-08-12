@@ -1,0 +1,9 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Onsager Engine logo</title>
+  <desc>A teal decay curve on a dark rounded badge, with an amber dot marking the shock origin and a dashed equilibrium baseline.</desc>
+  <rect x="0" y="0" width="128" height="128" rx="26" fill="#0a1c12"/>
+  <line x1="20" y1="86" x2="112" y2="86" stroke="#5eead4" stroke-width="2" stroke-dasharray="5 6" opacity="0.4"/>
+  <path d="M22,32 C42,32 46,68 62,78 C80,88 90,86 110,86"
+        fill="none" stroke="#5eead4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="22" cy="32" r="9.5" fill="#f4b942"/>
+</svg>

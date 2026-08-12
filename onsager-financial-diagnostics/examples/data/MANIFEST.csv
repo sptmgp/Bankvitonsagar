@@ -1,0 +1,11 @@
+file,value_col,date_col,known_shock_date,note
+bank_deposit_flows_resilient.csv,net_deposit_flow_pct,date,2024-10-08,reassured bank run -- linear response should hold
+bank_deposit_flows_panic.csv,net_deposit_flow_pct,date,2024-10-08,genuine bank run -- linear response should FAIL
+credit_delinquency_rate.csv,delinquency_rate_change_bps,date,2024-11-05,IFRS 9 / CECL style delinquency series
+level3_bid_ask_spread.csv,spread_bps,date,2024-10-08,illiquid derivative bid-ask spread
+supply_chain_inventory_cost.csv,inventory_cost_index,date,2024-10-08,port closure / supplier disruption
+energy_opex_index.csv,energy_cost_index,date,2024-10-08,ESG / energy price shock
+retail_daily_sales_index.csv,sales_index,date,2024-10-08,marketing campaign 'consumer memory' effect
+transaction_pattern_legitimate.csv,anomaly_score,date,2024-10-08,"one-off bulk payment run, NOT fraud"
+transaction_pattern_manipulation.csv,anomaly_score,date,2024-10-08,sustained manipulation -- should FAIL linear response
+sales_coaching_score_gap.csv,score_gap_to_target,date,2024-09-10,AI-scored sales-call coaching feedback loop
